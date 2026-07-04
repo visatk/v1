@@ -1,11 +1,11 @@
 {
-  "name": "@cloudflare/sandbox-opencode-example",
+  "name": "v1",
   "version": "1.0.0",
   "type": "module",
   "private": true,
-  "description": "Example of running OpenCode web UI inside Sandbox",
+  "description": "OpenCode web UI inside Sandbox",
   "scripts": {
-    "deploy": "wrangler deploy",
+    "deploy": "npm run types && wrangler deploy",
     "dev": "wrangler dev",
     "start": "wrangler dev",
     "types": "wrangler types --strict-vars=false",
